@@ -76,30 +76,30 @@ img {
     cursor: pointer;
 }
 
-#b1, #b2 {
+#buttonOne, #buttonTwo {
     cursor: pointer;
     transition: 0.4s all ease;
 }
 
-#b1 {
+#buttonOne{
     border-bottom: solid 4px hsl(170, 68%, 37%);
     background-color: hsl(171, 66%, 44%);
     margin-right: 10px;
 
 }
 
-#b1:hover {
+#buttonOne:hover {
     background: hsl(171, 52%, 58%);
 }
 
-#b2 {
+#buttonTwo {
     margin-left: 10px;
     border-bottom: solid 4px hsl(233, 69%, 60%);
     background-color: hsl(233, 100%, 69%);
 
 }
 
-#b2:hover {
+#buttonTwo:hover {
     background: hsl(233, 100%, 77%);
 }
 
@@ -294,12 +294,12 @@ li {
     .button{
         padding: 13px 70px;
     }
-    #b1{
+    #buttonOne{
         margin-right: 0px;
         margin-bottom: 20px;
     }
 
-    #b2{
+    #buttonTwo{
         margin-left: 0px;
     }
     
